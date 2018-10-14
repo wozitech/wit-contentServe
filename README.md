@@ -1,5 +1,5 @@
 # wit-contentServe
-Provide content (data) for all wit products, significantly so for the `wit-dash` application. As a data rich service, `wit-contentServe` is a GraphQL interface served through the excellent `nest.js` (node.js) framework. The data store is provided by the excellent `MongoDB`.
+Provides content (data) for all wit products, significantly so for the `wit-dash` application. As a data rich service, `wit-contentServe` is a GraphQL interface served through the excellent `nest.js` (node.js) framework. The data store is provided by the excellent `MongoDB`.
 
 `wit-contentServe` includes data caching and resolves against a set of local and and remote microservices. GraphQL resolvers can run local, and representations of all such dependable microservices are provided within this nest.js application making it easy to ran this application locally, with no external dependencies.
 
